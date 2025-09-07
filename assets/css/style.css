@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1d36;
+  color: aliceblue;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.imagen {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  margin: 20px auto;
+}
+
+.img_but {
+  display: inline-flex;
+  margin-top: 50px;
+}
+
+.boton {
+  margin-left: 60px;
+  margin-top: 100px;
+  text-decoration: none;
+}
+
+.foto_proyecto {
+  width: 400px;
+  height: 300 px;
+}
+.content {
+  margin-left: 50px;
+}
+h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#todo input {
+  width: 100%;
+}
+
+#todo ul {
+  margin-top: 20px;
+}
