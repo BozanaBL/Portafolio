@@ -52,11 +52,9 @@
           />
         </div>
         <div>
-          <button type="button" class="boton btn btn-outline-success">
-            <a href="https://www.linkedin.com/in/bozana-ivanic/"
-              >Disponible para trabajar</a
-            >
-          </button>
+          <a href="https://www.linkedin.com/in/bozana-ivanic/" class="btn btn-outline-success boton" target="_blank" rel="noopener noreferrer">
+  Disponible para trabajar
+</a>
         </div>
       </div>
       <h1>Hola, soy Bozana!</h1>
@@ -159,15 +157,22 @@
         >
       </p>
     </section>
-<section class="container" id="todo">
-  <h2>Lista de Tareas</h2>
-  <div class="mb-3">
-    <input type="text" id="nuevaTarea" class="form-control" placeholder="Escribe una nueva tarea..." />
-    <button onclick="agregarTarea()" class="btn btn-success mt-2">Agregar tarea</button>
-    <p id="mensaje" class="text-danger mt-2"></p>
-  </div>
-  <ul id="listaTareas" class="list-group"></ul>
-</section>
+    <section class="container" id="todo">
+      <h2>Lista de Tareas</h2>
+      <div class="mb-3">
+        <input
+          type="text"
+          id="nuevaTarea"
+          class="form-control"
+          placeholder="Escribe una nueva tarea..."
+        />
+        <button onclick="agregarTarea()" class="btn btn-success mt-2">
+          Agregar tarea
+        </button>
+        <p id="mensaje" class="text-danger mt-2"></p>
+      </div>
+      <ul id="listaTareas" class="list-group"></ul>
+    </section>
     <footer class="container">
       <p>© 2025 - Todos los derechos reservados</p>
     </footer>
